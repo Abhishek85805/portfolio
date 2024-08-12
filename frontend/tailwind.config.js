@@ -6,7 +6,8 @@ export default {
   ],
   theme: {
     screens: {
-      'md': {'min': '0px', 'max':'720px'}
+      'md': {'min': '0px', 'max':'600px'},
+      'lg': {'min': '600px', 'max': '700px'}
     },
     extend: {
       fontFamily: {
