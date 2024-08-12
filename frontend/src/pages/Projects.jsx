@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Projects() {
+function Projects({projectsRef}) {
   return (
-    <div className='min-h-full'>
+    <div ref={projectsRef} className='min-h-full'>
 
     </div>
   )
