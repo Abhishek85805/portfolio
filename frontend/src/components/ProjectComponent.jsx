@@ -18,16 +18,16 @@ function ProjectComponent({ index, project }) {
           }
         </div>
         <div className='flex gap-[2rem]'>
-          <div className='flex justify-center items-center'>
-            <span className='mr-[0.5rem]'>Code</span>
-            <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
-              <FontAwesomeIcon icon={faGithub} className='text-[1.5rem]' />
+          <div>
+            <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className='flex justify-center items-center'>
+              <span className='mr-[0.5rem] cursor-pointer'>Code</span>
+              <FontAwesomeIcon icon={faGithub} className='text-[1.5rem] hover:scale-110 transition-all duration-200 ease-linear' />
             </a>
           </div>
-          <div className='flex justify-center items-center'>
-            <span className='mr-[0.5rem]'>Live Demo</span>
-            <a href={project.liveLink} target="_blank" rel="noopener noreferrer">
-              <FontAwesomeIcon icon={faArrowUpRightFromSquare} className='text-[1.3rem]' />
+          <div>
+            <a href={project.liveLink} target="_blank" rel="noopener noreferrer" className='flex justify-center items-center'>
+              <span className='mr-[0.5rem] cursor-pointer'>Live Demo</span>
+              <FontAwesomeIcon icon={faArrowUpRightFromSquare} className='text-[1.3rem] hover:scale-110 transition-all duration-200 ease-linear' />
             </a>
           </div>
         </div>

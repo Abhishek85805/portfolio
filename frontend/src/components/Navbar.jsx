@@ -10,8 +10,8 @@ function Navbar({ homeRef, aboutRef, projectsRef, contactsRef }) {
     const handleScroll = () => {
       if (window.scrollY < 653) setActive('home');
       else if (window.scrollY >= 653 && window.scrollY < 1110) setActive('about');
-      else if (window.scrollY >= 1110 && window.scrollY < 3000) setActive('projects');
-      else if(window.scrollY >= 3000) setActive('contacts');
+      else if (window.scrollY >= 1110 && window.scrollY < 2650) setActive('projects');
+      else if(window.scrollY >= 2650) setActive('contacts');
     };
 
     window.addEventListener('scroll', handleScroll);
