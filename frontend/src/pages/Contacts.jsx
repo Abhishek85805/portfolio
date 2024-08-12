@@ -22,13 +22,13 @@ function Contacts({contactsRef}) {
             <FontAwesomeIcon icon={faEnvelope} className='text-[1.8rem] hover:scale-110 transition-all duration-200 ease-linear text-[#097FFF] mr-[2rem]'/>
             <div>
               <div className='font-bold'>Mail</div>
-              <div>abhishekchauhan85805@gmail.com</div>
+              <div><a href="mailto:abhishekchauhan85805@gmail.com">abhishekchauhan85805@gmail.com</a></div>
             </div>
           </div>
         </div>
       </div>
 
-      <div className='bg-black w-full text-white h-[80px] flex justify-around items-center md:flex-col'>
+      <div className='bg-black w-full text-white h-[80px] flex justify-around items-center md:flex-col-reverse'>
         <p>Copyright &copy; 2023. All rights are reserved</p>
         <div>
           <a href="https://github.com/Abhishek85805"><FontAwesomeIcon icon={faGithub} className='text-[1.8rem] hover:scale-110 transition-all duration-200 ease-linear mr-[1.8rem]'/></a>
