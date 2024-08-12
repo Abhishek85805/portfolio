@@ -10,8 +10,8 @@ function About({aboutRef}) {
             </div>
             <div className='flex-1 min-h-[16rem] md:text-left md:p-[2rem]'>
                 <h6 className='text-[#097FFF] font-extrabold'>ABOUT ME</h6>
-                <h2 className='font-extrabold text-[1.5rem]'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
-                <p className='text-[#868686]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi maxime distinctio dolores adipisci mollitia! Facilis debitis qui perferendis eos aperiam quia aliquid sed placeat pariatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nihil totam sunt cum illum. </p>
+                <h2 className='font-extrabold text-[1.5rem]'>A dedicated software developer based in Dehradun, India.</h2>
+                <p className='text-[#868686]'>As a software developer with a strong foundation in the MERN stack, I excel in building full-stack web applications using MongoDB, Express.js, React, and Node.js. My expertise extends to machine learning, where I leverage data processing techniques to develop intelligent systems and applications.</p>
             </div>
         </div>
     </div>

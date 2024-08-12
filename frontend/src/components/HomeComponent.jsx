@@ -1,5 +1,5 @@
 import React from 'react'
-import { faLinkedin, faGithub, faHtml5, faCss3Alt, faSquareJs, faReact } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin, faGithub, faHtml5, faCss3Alt, faSquareJs, faReact, faPython } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import profileImage from '../assets/passportSizePhoto.jpeg'
 
@@ -9,7 +9,7 @@ function HomeComponent() {
         <div className='flex justify-between w-full md:items-center md:flex-col-reverse md:mb-[1.4rem]'>
             <div className='w-[65%] md:w-full md:mb-[1.4rem]'>
                 <h1 className='text-[2.5rem] font-extrabold md:text-center'>Software Developer</h1>
-                <p className='text-[#868686] text-[1rem] mb-[1rem] md:text-center md:px-[2rem]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero incidunt enim sapiente facere accusantium aspernatur?</p>
+                <p className='text-[#868686] text-[1rem] mb-[1rem] md:text-center md:px-[2rem]'>Hi. I'm Abhishek Chauhan. A passionate software developer based in Dehradun, India.</p>
                 <div className='md:text-center'>
                     <a href="https://www.linkedin.com/in/abhishek-chauhan-b0801622a/">
                         <FontAwesomeIcon icon={faLinkedin} className='text-[1.8rem] mr-[0.8rem] hover:scale-110 transition-all duration-200 ease-linear text-[#0077b5]' />
@@ -28,6 +28,7 @@ function HomeComponent() {
                 <FontAwesomeIcon icon={faCss3Alt} className='hover:scale-110 transition-all duration-200 ease-linear text-[#3498db]'/>
                 <FontAwesomeIcon icon={faSquareJs} className='hover:scale-110 transition-all duration-200 ease-linear text-[#f7df1e]'/>
                 <FontAwesomeIcon icon={faReact} className='hover:scale-110 transition-all duration-200 ease-linear text-[#61dafb]'/>
+                <FontAwesomeIcon icon={faPython} className='hover:scale-110 transition-all duration-200 ease-linear text-[#306998]'/>
             </div>
         </div>
     </div>
