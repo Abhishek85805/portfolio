@@ -6,7 +6,7 @@ import profileImage from '../assets/passportSizePhoto.jpeg'
 function HomeComponent() {
   return (
     <div className='w-[45rem] p-[1.2rem] md:w-full md:mt-[4rem] md:p-[2.2rem]'>
-        <div className='flex justify-between w-full md:items-center md:flex-col md:mb-[1.4rem]'>
+        <div className='flex justify-between w-full md:items-center md:flex-col-reverse md:mb-[1.4rem]'>
             <div className='w-[65%] md:w-full md:mb-[1.4rem]'>
                 <h1 className='text-[2.5rem] font-extrabold md:text-center'>Software Developer</h1>
                 <p className='text-[#868686] text-[1rem] mb-[1rem] md:text-center md:px-[2rem]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero incidunt enim sapiente facere accusantium aspernatur?</p>

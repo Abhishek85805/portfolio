@@ -1,18 +1,17 @@
 import { faBars, faX } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
 
-function Navbar({ homeRef, aboutRef, projectsRef }) {
+function Navbar({ homeRef, aboutRef, projectsRef, contactsRef }) {
   const [crossIcon, setCrossIcon] = useState(false);
   const [active, setActive] = useState('home');
-  const navigate = useNavigate();
 
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY < 653) setActive('home');
       else if (window.scrollY >= 653 && window.scrollY < 1110) setActive('about');
-      else if (window.scrollY >= 1110) setActive('projects');
+      else if (window.scrollY >= 1110 && window.scrollY < 3000) setActive('projects');
+      else if(window.scrollY >= 3000) setActive('contacts');
     };
 
     window.addEventListener('scroll', handleScroll);
@@ -52,7 +51,8 @@ function Navbar({ homeRef, aboutRef, projectsRef }) {
           Projects
         </li>
         <li
-          className={`hover:scale-110 transition-all duration-200 ease-linear ${active === 'contact' && 'text-[#097FFF]'} cursor-pointer`}
+          className={`hover:scale-110 transition-all duration-200 ease-linear ${active === 'contacts' && 'text-[#097FFF]'} cursor-pointer`}
+          onClick={()=>scrollToSection(contactsRef)}
         >
           Contact
         </li>
